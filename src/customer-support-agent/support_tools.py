@@ -42,4 +42,3 @@ def process_return_autonomous(
 ) -> str:
     """Simulate a return in the hosted autonomous demonstration."""
     return _return_confirmation(order_number, return_type)
-

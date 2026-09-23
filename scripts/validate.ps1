@@ -18,4 +18,3 @@ Get-Content (Join-Path $repoRoot "evals\customer-support.jsonl") |
     ForEach-Object { $_ | ConvertFrom-Json | Out-Null }
 
 Write-Host "Workshop validation completed successfully."
-

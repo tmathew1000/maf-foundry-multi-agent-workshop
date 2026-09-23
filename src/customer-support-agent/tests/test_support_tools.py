@@ -9,4 +9,3 @@ def test_return_confirmation_is_explicitly_simulated() -> None:
     assert "Simulated return" in result
     assert "RET-123-REPLACEMENT" in result
     assert "No external system was changed" in result
-

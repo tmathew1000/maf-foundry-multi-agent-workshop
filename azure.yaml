@@ -47,4 +47,3 @@ services:
         memory: 1Gi
 infra:
   provider: microsoft.foundry
-

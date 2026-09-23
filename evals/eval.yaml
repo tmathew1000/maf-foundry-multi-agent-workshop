@@ -10,4 +10,3 @@ evaluators:
 options:
   pass_threshold: 0.8
   max_samples: 5
-

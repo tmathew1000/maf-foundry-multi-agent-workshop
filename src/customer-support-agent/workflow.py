@@ -59,4 +59,3 @@ def build_customer_support_workflow(client, *, autonomous: bool, require_tool_ap
         builder = builder.with_autonomous_mode()
 
     return builder.build()
-

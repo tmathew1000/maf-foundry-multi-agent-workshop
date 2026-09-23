@@ -15,4 +15,3 @@ def configure_local_observability() -> None:
         vs_code_extension_port=4317,
         enable_sensitive_data=capture_content,
     )
-

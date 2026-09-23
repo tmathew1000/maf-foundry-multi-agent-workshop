@@ -1,0 +1,13 @@
+.azure/
+.env
+.foundry/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+*.py[cod]
+htmlcov/
+coverage.xml
+dist/
+build/
+

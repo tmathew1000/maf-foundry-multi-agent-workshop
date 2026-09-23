@@ -1,0 +1,14 @@
+flowchart LR
+    U[Customer] --> H[Responses host]
+    H --> T[Triage agent]
+    T --> O[Order agent]
+    T --> R[Return agent]
+    O --> S[Order status tool]
+    R --> A{Human approval}
+    A -->|Approved locally| P[Simulated return tool]
+    O --> T
+    R --> T
+    H --> OT[OpenTelemetry]
+    OT --> AI[Application Insights]
+    AI --> FT[Foundry traces and evaluations]
+
